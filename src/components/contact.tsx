@@ -68,7 +68,7 @@ const Contact = () => {
 
 
                 <form onSubmit={handleSubmit} className="space-y-6">
-                    <div className="flex flex-row gap-6">
+                    <div className="flex flex-col md:flex-row gap-6">
                         <input
                             type="text"
                             name="name"
