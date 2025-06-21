@@ -10,7 +10,7 @@ import Works from "../components/works";
 
 const Portfolio = () => {
     return (
-        <>
+        <div className="overflow-x-hidden">
             <Navbar />
             <Home />
             <About />
@@ -20,7 +20,7 @@ const Portfolio = () => {
             <Contact />
             <Footer />
             <ScrollToTopButton />
-        </>
+        </div>
     )
 }
 

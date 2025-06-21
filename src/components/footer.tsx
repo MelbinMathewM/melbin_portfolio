@@ -3,7 +3,7 @@ import logo_img from "/logo.png";
 
 const Footer = () => {
     return (
-        <footer className="bg-gray-100 dark:bg-gray-950 text-gray-700 dark:text-gray-300 px-6 py-5 mt-20">
+        <footer className="w-full bg-gray-100 dark:bg-gray-950 text-gray-700 dark:text-gray-300 px-6 py-5 mt-20">
             <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
 
                 {/* Logo + Description */}
@@ -27,7 +27,7 @@ const Footer = () => {
                 </div>
 
                 {/* Social Links */}
-                <div className="flex flex-col items-end">
+                <div className="flex flex-col items-center md:items-end">
                     <h3 className="text-lg font-semibold mt-6 mb-4">Follow Me</h3>
                     <div className="flex justify-center md:justify-start gap-4 text-xl dark:text-gray-100 text-gray-800">
                         <a href="https://github.com/melbinmathewm" className="hover:text-violet-600" target="_blank" rel="noreferrer">

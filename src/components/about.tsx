@@ -7,7 +7,7 @@ const About = () => {
     return (
         <section
             id="about"
-            className="py-15 px-6 bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-100"
+            className="w-full py-15 px-6 bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-100"
         >
             <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
 

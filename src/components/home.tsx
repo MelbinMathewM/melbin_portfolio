@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <section
             id="home"
-            className="h-screen flex flex-col justify-center items-center text-center px-4 bg-white dark:bg-gray-900"
+            className="w-full flex flex-col justify-center items-center text-center px-4 py-15 mt-12 bg-white dark:bg-gray-900"
         >
             <motion.img
                 initial={{ opacity: 0, scale: 0.8 }}

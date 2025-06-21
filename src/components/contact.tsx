@@ -52,7 +52,7 @@ const Contact = () => {
     };
 
     return (
-        <section id="contact" className="py-15 px-6 bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-100">
+        <section id="contact" className="w-full py-15 px-6 bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-100">
             <div className="max-w-3xl mx-auto text-center">
                 <motion.h2
                     initial={{ opacity: 0, y: -20 }}
@@ -124,7 +124,7 @@ const Contact = () => {
                                 <span>Sending...</span>
                             </div>
                         ) : (
-                            <div className="flex items-center gap-2">
+                            <div className="flex items-center gap-2 cursor-pointer">
                                 <span>Send</span>
                                 <FaMessage className="text-white" />
                             </div>

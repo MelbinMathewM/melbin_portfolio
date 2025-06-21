@@ -30,7 +30,7 @@ const projects = [
 
 const Works = () => {
     return (
-        <section id="works" className="py-15 px-6 bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-100">
+        <section id="works" className="w-full py-15 px-6 bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-100">
             <div className="max-w-6xl mx-auto">
                 {/* Heading */}
                 <motion.h2
@@ -77,7 +77,7 @@ const Works = () => {
                                         href={project.github}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white flex items-center gap-1"
+                                        className="text-gray-700 dark:text-gray-400 hover:text-black dark:hover:text-white flex items-center gap-1"
                                     >
                                         <FaGithub size={18} /> Code
                                     </a>

@@ -48,7 +48,7 @@ const Services = () => {
     return (
         <section
             id="services"
-            className="py-15 px-6 bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-100"
+            className="w-full py-15 px-6 bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-100"
         >
             <div className="max-w-6xl mx-auto text-center">
                 <motion.h2

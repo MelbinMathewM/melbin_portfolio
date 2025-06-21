@@ -79,7 +79,7 @@ const Navbar = () => {
                 </div>
 
                 {/* Right: Links and Toggles */}
-                <div className="w-2/3 md:w-3/4 clip-right bg-gray-200/40 dark:bg-gray-800/40 backdrop-blur-md px-4 flex items-center">
+                <div className="w-2/3 md:w-3/4 clip-right bg-gray-200/90 sm:bg-gray-200/40 dark:bg-gray-800/90 sm:dark:bg-gray-800/40 sm:backdrop-blur-md px-4 flex items-center">
                     <div className="w-full flex items-center justify-between">
                         <div className="hidden md:flex mx-auto space-x-6 uppercase tracking-wide font-medium text-gray-100">
                             {links.map((link) => (
