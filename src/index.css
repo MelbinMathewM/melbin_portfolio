@@ -13,21 +13,3 @@
         }
     }
 }
-
-/* Light theme autofill style */
-:root input:-webkit-autofill,
-:root input:-webkit-autofill:hover,
-:root input:-webkit-autofill:focus {
-    -webkit-text-fill-color: #1f2937 !important;
-    transition: background-color 9999s ease-in-out 0s;
-    box-shadow: 0 0 0px 1000px transparent inset !important;
-}
-
-/* Dark theme autofill style */
-.dark input:-webkit-autofill,
-.dark input:-webkit-autofill:hover,
-.dark input:-webkit-autofill:focus {
-    -webkit-text-fill-color: #e5e7eb !important;
-    transition: background-color 9999s ease-in-out 0s;
-    box-shadow: 0 0 0px 1000px transparent inset !important;
-}

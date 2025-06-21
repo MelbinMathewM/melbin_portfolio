@@ -100,14 +100,14 @@ const Navbar = () => {
                         <div className="flex items-center gap-4 ml-auto sm:m-auto">
                             <button
                                 onClick={toggleTheme}
-                                className="text-violet-600 transition"
+                                className="text-violet-600 transition cursor-pointer"
                                 aria-label="Toggle theme"
                             >
                                 {dark ? <Moon size={20} /> : <Sun size={20} />}
                             </button>
                             <button
                                 onClick={toggleMenu}
-                                className="md:hidden text-violet-600 transition"
+                                className="md:hidden text-violet-600 transition cursor-pointer"
                                 aria-label="Toggle menu"
                             >
                                 {menuOpen ? <X size={24} /> : <Menu size={24} />}
