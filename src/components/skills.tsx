@@ -13,7 +13,7 @@ import {
     FaFolderOpen,
     FaPlug,
 } from "react-icons/fa";
-import { FiLayers } from "react-icons/fi";
+import { FiFigma, FiLayers } from "react-icons/fi";
 import {
     SiTailwindcss,
     SiTypescript,
@@ -99,7 +99,7 @@ const skills = [
             { name: "Redux", icon: <SiRedux /> },
             { name: "Socket.io", icon: <SiSocketdotio /> },
             { name: "RabbitMQ", icon: <SiRabbitmq /> },
-            { name: "Cloudinary", icon: <SiCloudinary /> }
+            { name: "Figma", icon: <FiFigma /> }
         ]
     }
 ];
