@@ -73,6 +73,7 @@ const Contact = () => {
                             type="text"
                             name="name"
                             placeholder="Your Name"
+                            autoComplete="off"
                             value={formData.name}
                             onChange={handleChange}
                             className="w-full p-3 rounded-md border border-gray-300 hover:border-purple-400 dark:border-gray-700"
@@ -81,6 +82,7 @@ const Contact = () => {
                             type="email"
                             name="email"
                             placeholder="Your Email"
+                            autoComplete="off"
                             value={formData.email}
                             onChange={handleChange}
                             className="w-full p-3 rounded-md border border-gray-300 hover:border-purple-400 dark:bg-gray-900 dark:border-gray-700"
