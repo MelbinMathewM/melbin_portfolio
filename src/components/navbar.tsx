@@ -97,7 +97,7 @@ const Navbar = () => {
                             ))}
                         </div>
 
-                        <div className="flex items-center gap-4 ml-auto sm:m-auto">
+                        <div className="flex items-center gap-4 ml-auto md:m-auto">
                             <button
                                 onClick={toggleTheme}
                                 className="text-violet-600 transition cursor-pointer"
