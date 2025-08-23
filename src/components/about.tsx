@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
 import { FaReact, FaNodeJs } from "react-icons/fa";
 import { SiMongodb, SiExpress } from "react-icons/si";
-import melbin_mathew_img from "/melbin_mathew_1.jpg";
+
+import melbin_mathew_img from "/melbin_mathew_1.webp";
 
 const About = () => {
     return (

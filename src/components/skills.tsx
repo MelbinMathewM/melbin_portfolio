@@ -124,7 +124,7 @@ const Skills = () => {
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.4, delay: index * 0.1 }}
-                            className="bg-gray-100 dark:bg-gray-950 dark:border dark:border-gray-800 rounded-md p-6 shadow-md hover:shadow-xl hover:dark:border-gray-700 transition-shadow duration-300"
+                            className="bg-gray-100 dark:bg-gray-950 dark:border dark:border-gray-900 rounded-md p-6 shadow-md hover:shadow-xl hover:dark:border-gray-700 transition-shadow duration-300"
                         >
                             <h3 className="text-xl font-semibold text-violet-500 mb-4">{group.title}</h3>
                             <div className="grid grid-cols-2 gap-4">
@@ -133,7 +133,7 @@ const Skills = () => {
                                         key={i}
                                         className="flex items-center gap-3 text-sm hover:scale-105 transition-transform"
                                     >
-                                        <span className="text-violet-500 text-xl">{item.icon}</span>
+                                        <span className="text-violet-400 hover:text-violet-500 text-xl">{item.icon}</span>
                                         <span>{item.name}</span>
                                     </div>
                                 ))}

@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Mail, FolderOpen, Download } from "lucide-react";
-import melbin_img from "/melbin.jpg";
+
+import melbin_img from "/melbin.webp";
 
 const Home = () => {
     return (

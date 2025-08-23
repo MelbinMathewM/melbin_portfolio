@@ -1,36 +1,45 @@
 import { motion } from "framer-motion";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
-import prograbyte_img from "/prograbyte_landing.png";
-import glassics_img from "/glassics_landing.png";
-import astute_img from "/astute_landing.png";
+
+import prograbyte_img from "/prograbyte_landing.webp";
+import glassics_img from "/glassics_landing.webp";
+import astute_img from "/astute_landing.webp";
+import drchiller_img from "/drchiller_landing.webp";
 
 const projects = [
     {
         name: "Prograbyte",
         image: prograbyte_img,
-        description: "A MERN Stack based E-learning site where users can buy tutorials, attend live classes and add blogs.",
+        description: "A full-featured MERN stack e-learning platform where users can purchase tutorials, attend live classes, and publish blogs.",
         live: "https://prograbyte.site",
         github: "https://github.com/melbinmathewm/prograbyte",
     },
     {
         name: "Glassics",
         image: glassics_img,
-        description: "An E-commerce site for sunglasses and eyeglasses with cart, Stripe payment, admin panel, and more.",
-        live: "https://glassics.shop",
+        description: "An e-commerce platform for sunglasses and eyeglasses with cart functionality, Stripe payments, and an admin dashboard.",
+        live: "https://glassics.onrender.com",
         github: "https://github.com/melbinmathewm/glassics",
     },
     {
         name: "Astute",
         image: astute_img,
-        description: "A PDF viewing site using React and Cloudinary as its database",
+        description: "A React-based PDF viewer application that uses Cloudinary for secure file storage and access.",
         live: "https://astute-eight.vercel.app",
         github: "https://github.com/melbinmathewm/astute_frontend",
+    },
+    {
+        name: "CTS - Chiller Technical Services L.L.C",
+        image: drchiller_img,
+        description: "A corporate website showcasing water chillers, HVAC products, and technical services in the UAE.",
+        live: "https://drchiller.com",
+        github: "https://github.com/dr-chiller/dr.chiller"
     }
 ];
 
 const Works = () => {
     return (
-        <section id="works" className="w-full py-15 px-6 bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-100">
+        <section id="works" className="w-full py-15 px-6 bg-gray-100 dark:bg-gray-950 text-gray-800 dark:text-gray-100">
             <div className="max-w-6xl mx-auto">
                 {/* Heading */}
                 <motion.h2
@@ -55,7 +64,7 @@ const Works = () => {
                     {projects.map((project, index) => (
                         <motion.div
                             key={index}
-                            className="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+                            className="bg-white dark:bg-gray-900 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.4, delay: index * 0.2 }}

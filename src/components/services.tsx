@@ -10,37 +10,37 @@ const services = [
     {
         icon: <FaCode size={32} />,
         title: "Frontend Development",
-        description: "Create responsive and interactive UIs using React, Tailwind CSS, and modern frontend tools.",
+        description: "Design responsive, interactive UIs with React and Tailwind CSS, optimized for performance and accessibility.",
     },
     {
         icon: <FaServer size={32} />,
-        title: "Backend API Development",
-        description: "Develop robust REST APIs and backend services with Express and Node.js.",
+        title: "Backend & API Development",
+        description: "Develop secure and efficient REST APIs and backend services with Node.js and Express.",
     },
     {
         icon: <FaLock size={32} />,
         title: "Authentication & Security",
-        description: "Implement secure login systems with JWT, OAuth, and role-based access.",
+        description: "Implement robust authentication with JWT, OAuth, and role-based access while ensuring app security.",
     },
     {
         icon: <FaDatabase size={32} />,
-        title: "Database Management",
-        description: "Design and integrate MongoDB and SQL databases efficiently and securely.",
+        title: "Database & Data Management",
+        description: "Design and integrate MongoDB and SQL databases, ensuring efficiency, reliability, and scalability.",
     },
     {
         icon: <FaRocket size={32} />,
         title: "Deployment & DevOps",
-        description: "Deploy applications using Docker, Vercel, Render, or AWS with CI/CD workflows.",
+        description: "Deploy applications using Docker, Vercel, Render, or AWS with CI/CD pipelines and cloud scaling.",
     },
     {
         icon: <FaSyncAlt size={32} />,
         title: "Real-Time Features",
-        description: "Integrate live chat, notifications, and real-time updates using Socket.IO.",
+        description: "Add live chat, notifications, and real-time updates powered by WebSockets and Socket.IO.",
     },
     {
         icon: <FaChartLine size={32} />,
-        title: "Admin Dashboard & Analytics",
-        description: "Create admin interfaces and integrate user or product analytics dashboards.",
+        title: "SEO & Analytics",
+        description: "Optimize websites for search engines (SEO) and integrate analytics dashboards for performance tracking.",
     },
 ];
 
