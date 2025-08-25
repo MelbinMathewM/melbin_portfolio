@@ -23,18 +23,18 @@ const projects = [
         github: "https://github.com/melbinmathewm/glassics",
     },
     {
-        name: "Astute",
-        image: astute_img,
-        description: "A React-based PDF viewer application that uses Cloudinary for secure file storage and access.",
-        live: "https://astute-eight.vercel.app",
-        github: "https://github.com/melbinmathewm/astute_frontend",
-    },
-    {
         name: "CTS - Chiller Technical Services L.L.C",
         image: drchiller_img,
         description: "A corporate website showcasing water chillers, HVAC products, and technical services in the UAE.",
         live: "https://drchiller.com",
         github: "https://github.com/dr-chiller/dr.chiller"
+    },
+    {
+        name: "Astute",
+        image: astute_img,
+        description: "A React-based PDF viewer application that uses Cloudinary for secure file storage and access.",
+        live: "https://astute-eight.vercel.app",
+        github: "https://github.com/melbinmathewm/astute_frontend",
     },
     {
         name: "MelTools",
@@ -49,7 +49,6 @@ const Works = () => {
     return (
         <section id="works" className="w-full py-15 px-6 bg-gray-100 dark:bg-gray-950 text-gray-800 dark:text-gray-100">
             <div className="max-w-6xl mx-auto">
-                {/* Heading */}
                 <motion.h2
                     initial={{ opacity: 0, y: -20 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -67,7 +66,6 @@ const Works = () => {
                     A selection of some of the work I've done recently — showcasing full-stack skills, real-world solutions, and modern UI.
                 </motion.p>
 
-                {/* Project Grid */}
                 <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
                     {projects.map((project, index) => (
                         <motion.div
