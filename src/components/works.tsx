@@ -5,6 +5,7 @@ import prograbyte_img from "/prograbyte_landing.webp";
 import glassics_img from "/glassics_landing.webp";
 import astute_img from "/astute_landing.webp";
 import drchiller_img from "/drchiller_landing.webp";
+import meltools_img from "/meltools_landing.webp";
 
 const projects = [
     {
@@ -34,6 +35,13 @@ const projects = [
         description: "A corporate website showcasing water chillers, HVAC products, and technical services in the UAE.",
         live: "https://drchiller.com",
         github: "https://github.com/dr-chiller/dr.chiller"
+    },
+    {
+        name: "MelTools",
+        image: meltools_img,
+        description: "A React app providing quick access to essential tools like QR Code generation and WebP image conversion, all in one place.",
+        live: "https://meltools.vercel.app",
+        github: "https://github.com/melbinmathewm/meltools"
     }
 ];
 
