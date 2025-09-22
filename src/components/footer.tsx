@@ -22,7 +22,7 @@ const Footer = () => {
                     <h3 className="text-lg font-semibold mt-6 mb-4">Contact</h3>
                     <a
                         href="mailto:melbinppmathewp@gmail.com"
-                        className="text-sm hover:text-violet-400 flex items-center"
+                        className="text-sm hover:text-violet-400 flex items-center mb-2"
                     >
                         <FaEnvelope className="mr-2" />
                         melbinppmathewp@gmail.com
