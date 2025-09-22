@@ -33,7 +33,7 @@ const Footer = () => {
                         <a href="https://github.com/melbinmathewm" className="hover:text-violet-600" target="_blank" rel="noreferrer">
                             <FaGithub />
                         </a>
-                        <a href="https://linkedin.com/in/melbin-mathew-7996b82b5" className="hover:text-violet-600" target="_blank" rel="noreferrer">
+                        <a href="https://linkedin.com/in/melbinmathewm" className="hover:text-violet-600" target="_blank" rel="noreferrer">
                             <FaLinkedin />
                         </a>
                         <a href="https://facebook.com/melbin.mathew.90281?mibextid=ZbWKwL" className="hover:text-violet-600" target="_blank" rel="noreferrer">
