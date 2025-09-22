@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram, FaFacebook } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram, FaFacebook, FaPhone } from "react-icons/fa";
 import logo_img from "/logo.png";
 
 const Footer = () => {
@@ -20,10 +20,20 @@ const Footer = () => {
                 {/* Contact Info */}
                 <div className="flex flex-col items-center">
                     <h3 className="text-lg font-semibold mt-6 mb-4">Contact</h3>
-                    <p className="text-sm hover:text-violet-400">
-                        <FaEnvelope className="inline mr-2" />
-                        <a href="mailto:gpexports05@gmail.com">melbinppmathewp@gmail.com</a>
-                    </p>
+                    <a
+                        href="mailto:melbinppmathewp@gmail.com"
+                        className="text-sm hover:text-violet-400 flex items-center"
+                    >
+                        <FaEnvelope className="mr-2" />
+                        melbinppmathewp@gmail.com
+                    </a>
+                    <a
+                        href="tel:+919747827371"
+                        className="text-sm hover:text-violet-400 flex items-center"
+                    >
+                        <FaPhone className="mr-2" />
+                        +91 9747827371
+                    </a>
                 </div>
 
                 {/* Social Links */}
