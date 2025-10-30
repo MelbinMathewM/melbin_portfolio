@@ -40,16 +40,16 @@ const Footer = () => {
                 <div className="flex flex-col items-center md:items-end">
                     <h3 className="text-lg font-semibold mt-6 mb-4">Follow Me</h3>
                     <div className="flex justify-center md:justify-start gap-4 text-xl dark:text-gray-100 text-gray-800">
-                        <a href="https://github.com/melbinmathewm" className="hover:text-violet-600" target="_blank" rel="noreferrer">
+                        <a href="https://github.com/melbinmathewm/" className="hover:text-violet-600" target="_blank" rel="noreferrer">
                             <FaGithub />
                         </a>
-                        <a href="https://linkedin.com/in/melbinmathewm" className="hover:text-violet-600" target="_blank" rel="noreferrer">
+                        <a href="https://linkedin.com/in/melbinmathewm/" className="hover:text-violet-600" target="_blank" rel="noreferrer">
                             <FaLinkedin />
                         </a>
                         <a href="https://facebook.com/melbin.mathew.90281?mibextid=ZbWKwL" className="hover:text-violet-600" target="_blank" rel="noreferrer">
                             <FaFacebook />
                         </a>
-                        <a href="https://instagram.com/_triumph_beau_?igsh=MXc1Y25mOWN0emw5aw==" className="hover:text-violet-600" target="_blank" rel="noreferrer">
+                        <a href="https://instagram.com/_triumph_beau_/" className="hover:text-violet-600" target="_blank" rel="noreferrer">
                             <FaInstagram />
                         </a>
                     </div>
