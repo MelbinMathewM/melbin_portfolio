@@ -46,7 +46,7 @@ const Footer = () => {
                         <a href="https://linkedin.com/in/melbinmathewm/" className="hover:text-violet-600" target="_blank" rel="noreferrer">
                             <FaLinkedin />
                         </a>
-                        <a href="https://facebook.com/melbin.mathew.90281?mibextid=ZbWKwL" className="hover:text-violet-600" target="_blank" rel="noreferrer">
+                        <a href="https://facebook.com/melbinmathewm/" className="hover:text-violet-600" target="_blank" rel="noreferrer">
                             <FaFacebook />
                         </a>
                         <a href="https://instagram.com/_triumph_beau_/" className="hover:text-violet-600" target="_blank" rel="noreferrer">
